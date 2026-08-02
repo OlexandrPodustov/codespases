@@ -29,6 +29,17 @@ This repository is [Codespaces](https://docs.github.com/en/codespaces/overview) 
 
 :fire: If you need a quick reference for Codespaces and configuration with Visual Studio Code, feel free to reuse the [configuration files](./.devcontainer) in this repository.
 
+### Codespaces configuration
+
+The `.devcontainer/devcontainer.json` file defines the development environment used by Codespaces:
+
+- **Base image**: `mcr.microsoft.com/devcontainers/rust:0-1-bullseye` (official Rust container).
+- **VS Code extensions**:
+  - `rust-lang.rust-analyzer` – language support & analysis.
+  - `GitHub.copilot` – AI pair programming.
+
+To launch, click **Code → Open with Codespaces** on GitHub or create a new Codespace from this repo. The container will build, and you’ll be in a ready‑to‑code Rust workspace with all tools available in the browser or desktop VS Code.
+
 ### Lesson 1: Setting up your text editor
 - [Rust on Visual Studio Code](https://code.visualstudio.com/docs/languages/rust?WT.mc_id=academic-0000-alfredodeza)
 - [Install Rust on Windows](https://learn.microsoft.com/windows/dev-environment/rust/setup?WT.mc_id=academic-0000-alfredodeza)
